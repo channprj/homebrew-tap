@@ -1,6 +1,6 @@
 # homebrew-tap
 
-Homebrew tap for kmsg.
+Homebrew tap. Written by chann.
 
 ## Install
 

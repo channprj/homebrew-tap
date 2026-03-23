@@ -1,9 +1,9 @@
-class Kmsg < Formula
+class KmsgAT023 < Formula
   desc "CLI tool for KakaoTalk on macOS"
   homepage "https://github.com/channprj/kmsg"
-  url "https://github.com/channprj/kmsg/releases/download/v0.2.7/kmsg-macos-universal"
-  sha256 "681e804a6657d5f990dc92876b37658e408772df8c0f4e44fa20ce453576c19d"
-  version "0.2.7"
+  url "https://github.com/channprj/kmsg/releases/download/v0.2.3/kmsg-macos-universal"
+  sha256 "01f335c5d7db40038e0ffc6051ab7161c8457c6e47f73a112986a71db43b3691"
+  version "0.2.3"
   license "MIT"
 
   def install
@@ -12,6 +12,6 @@ class Kmsg < Formula
 
   test do
     output = shell_output("#{bin}/kmsg --version")
-    assert_match "0.2.7", output
+    assert_match "0.2.3", output
   end
 end

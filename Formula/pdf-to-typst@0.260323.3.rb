@@ -1,4 +1,4 @@
-class PdfToTypst < Formula
+class PdfToTypstAT02603233 < Formula
   desc "Convert PDF documents into editable Typst projects"
   homepage "https://github.com/channprj/pdf-to-typst"
   url "https://github.com/channprj/pdf-to-typst/archive/refs/tags/v0.260323.3.tar.gz"

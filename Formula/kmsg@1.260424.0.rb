@@ -1,4 +1,4 @@
-class Kmsg < Formula
+class KmsgAT12604240 < Formula
   desc "CLI tool for KakaoTalk on macOS"
   homepage "https://github.com/channprj/kmsg"
   url "https://github.com/channprj/kmsg/releases/download/v1.260424.0/kmsg-macos-universal"

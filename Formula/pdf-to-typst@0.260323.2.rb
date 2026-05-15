@@ -2,7 +2,6 @@ class PdfToTypstAT02603232 < Formula
   desc "Convert PDF documents into editable Typst projects"
   homepage "https://github.com/channprj/pdf-to-typst"
   url "https://github.com/channprj/pdf-to-typst/archive/refs/tags/v0.260323.2.tar.gz"
-  version "0.260323.2"
   sha256 "994b05f352bf5b72b7d52789d5f1f03363c33dac71492d310d6eda260b758e93"
   license "MIT"
 

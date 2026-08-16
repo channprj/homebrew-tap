@@ -11,7 +11,12 @@ brew tap channprj/tap
 brew install channprj/tap/pdf-to-typst
 brew install channprj/tap/pdf-to-typst@0.260323.3
 brew install channprj/tap/kmsg
+brew install --HEAD channprj/tap/stt-cli
 ```
+
+`stt-cli` builds from a private source repository, so it has no stable
+tarball and installs from a git clone — `--HEAD` is required, and you need
+read access to `channprj/stt-cli`.
 
 ## kmsg Versioned Installs
 

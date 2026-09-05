@@ -11,12 +11,42 @@ brew tap channprj/tap
 brew install channprj/tap/pdf-to-typst
 brew install channprj/tap/pdf-to-typst@0.260323.3
 brew install channprj/tap/kmsg
-brew install --HEAD channprj/tap/stt-cli
+brew install channprj/tap/stt-cli
 ```
 
-`stt-cli` builds from a private source repository, so it has no stable
-tarball and installs from a git clone — `--HEAD` is required, and you need
-read access to `channprj/stt-cli`.
+## stt-cli
+
+`stt-cli` builds from a pinned release tag and commit in the private
+`channprj/stt-cli` repository. Installs and upgrades require read access and
+authenticated Git. If using GitHub CLI, authenticate before installing:
+
+```bash
+gh auth login
+gh auth setup-git
+brew install channprj/tap/stt-cli
+stt-cli --version
+```
+
+Homebrew installs Rust as a build dependency. Install `ffmpeg` separately if
+you want to use optional `--vad` processing.
+
+Update stable installations with:
+
+```bash
+brew update
+brew upgrade channprj/tap/stt-cli
+```
+
+To migrate an existing `--HEAD` installation to a stable release:
+
+```bash
+brew uninstall channprj/tap/stt-cli
+brew install channprj/tap/stt-cli
+```
+
+Uninstalling the formula preserves the CLI's configuration. For unreleased
+`main`, use `brew install --HEAD channprj/tap/stt-cli`; update that installation
+with `brew reinstall channprj/tap/stt-cli`.
 
 ## kmsg Versioned Installs
 

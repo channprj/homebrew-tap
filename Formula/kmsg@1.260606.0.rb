@@ -3,7 +3,6 @@ class KmsgAT12606060 < Formula
   homepage "https://github.com/channprj/kmsg"
   url "https://github.com/channprj/kmsg/releases/download/v1.260606.0/kmsg-macos-universal"
   sha256 "302c2c6c56757bc0346a45b1d50ca821edec859641aa5756bea73dc0024a4e75"
-  version "1.260606.0"
   license "MIT"
 
   def install

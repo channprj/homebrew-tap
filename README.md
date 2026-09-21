@@ -55,11 +55,12 @@ Install the latest release or pin an exact kmsg release from this tap.
 
 ```bash
 brew install channprj/tap/kmsg
-brew install channprj/tap/kmsg@1.260819.1
+brew install channprj/tap/kmsg@1.260921.0
 ```
 
 Recent 10 releases are kept in this tap:
 
+- `kmsg@1.260921.0`
 - `kmsg@1.260819.1`
 - `kmsg@1.260819.0`
 - `kmsg@1.260817.0`
@@ -69,5 +70,4 @@ Recent 10 releases are kept in this tap:
 - `kmsg@1.260618.0`
 - `kmsg@1.260606.1`
 - `kmsg@1.260606.0`
-- `kmsg@1.260424.0`
 <!-- kmsg-versioned:end -->
